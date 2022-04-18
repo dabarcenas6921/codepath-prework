@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] Implemented a diffuclty selector when start is pressed
+* [x] Implemented a difficulty selector when start is pressed
 * [x] Each difficulty has a different speed for the game.
 
 ## Video Walkthrough (GIF)
