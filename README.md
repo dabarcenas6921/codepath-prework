@@ -36,14 +36,14 @@ The following **additional** features are implemented:
 
 * [x] Implemented a difficulty selector when start is pressed
 * [x] Each difficulty has a different speed for the game.
+* [x] Plays sound when player has won.
+* [x] Pop up window with animations.  
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-![](https://i.imgur.com/6uk4YwM.gif)
-
-
+![](https://i.imgur.com/uAyt8Kd.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
