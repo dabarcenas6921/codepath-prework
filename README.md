@@ -43,8 +43,6 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-![Game features](https://i.imgur.com/70kxDn8.gif)
-
 ![](https://i.imgur.com/GTPlpzV.gif)
 
 ## Reflection Questions
@@ -67,7 +65,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
 
-*  The main thing I would do with my spare time is to add additional features to the game that I'm missing. There are a lot of good ideas on the "optional features" list and I plan on adding a few of them to the game in the future. It's always fun for me to add these new features because I end up learning a lot and they test my ability to think critically. Like I said in the previous question, I would love to add an online leaderboard to this game that could display player high scores. This would potentially need a database and the implementation of an "infinite" mode. Additionally, I was thinking of making an "Extreme" mode for the game where the player is given both a pattern to memorize while the squares are moving and bouncing off the screen. This would add a layer of difficulty to the game that would make it extremely difficult to win. Apart from these features, I would like to just polish the website and make it look nicer. The buttons and header could use a bit of work to stand out more. Maybe the background can have a picture to make it more interesting or I could implement some animations to the pop-up window. In general, a lot of the white space can be removed and the game could be centered in the middle of the screen.
+*  The main thing I would do with my spare time is to add additional features to the game that I'm missing. It's always fun for me to add these new features because I end up learning a lot and they test my ability to think critically. Like I said in the previous question, I would love to add an online leaderboard to this game that could display player high scores. This would potentially need a database and the implementation of an "infinite" mode. I think it is possible to make a local leaderboard, but I would like a mode where your score can compete against the rest of the world. Additionally, I was thinking of making an "Extreme" mode for the game where the player is given both a pattern to memorize while the squares are moving and bouncing off the screen. This would add a layer of difficulty to the game that would make it extremely difficult to win. Apart from these features, I would like to just polish the website and make it look nicer. The buttons and header could use a bit of work to stand out more. When a player wins, I want there to be a special animation or victory screen that congratulates the player. In general, a lot of the white space can be removed and can be filled with icons for additonal features. I could also add a feature to change the current background picture with something else.
 
 
 ## Interview Recording URL Link
