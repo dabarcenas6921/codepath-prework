@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>The Animal Memory Game 🧠</h1>
+    <p>
+      Welcome to the game! Press buttons to repeat back the pattern in under 10 seconds.
+    </p>
+    <div class = "countdown-and-buttons">
+      <button id="startBtn" onclick="startGame()">Start</button>
+      <button class="hidden" id="stopBtn" onclick="stopGame()">Stop</button>
+      <p id="countdown">Time left: 10</p>
+    </div>
+    
+    <h2 id="tries">Number of tries left: 3</h2>
+    
+    <div class="modal-container" id="modal_container">
+      <div class="modal">
+        <h1 id="modal-header">Please select a difficulty</h1>
+        <div class="difficultyButtonArea">
+          <button id="easyButton" onclick="difficultySelector(0,0)">
+            Easy
+          </button>
+          <button id="mediumButton" onclick="difficultySelector(400, 50)">
+            Medium
+          </button>
+          <button id="hardButton" onclick="difficultySelector(600, 75)">
+            Hard
+          </button>
+          <button id="expertButton" onclick="difficultySelector(950, 100)">
+            Expert
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone(1)"
+        onclick="guess(1)"
+      ></button>
+      <button
+        id="button2"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone(2)"
+        onclick="guess(2)"
+      ></button>
+      <button
+        id="button3"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone(3)"
+        onclick="guess(3)"
+      ></button>
+      <button
+        id="button4"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone(4)"
+        onclick="guess(4)"
+      ></button>
+      <button
+        id="button5"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone(5)"
+        onclick="guess(5)"
+      ></button>
+    </div>
+
+    <div id="audioArea">
+      <audio
+        id="audio1"
+        src="https://cdn.glitch.global/9eec938b-b28c-433d-b85b-9cab7d44f982/rattlesnake_sound.mp3?v=1650264025229"
+      ></audio>
+      <audio
+        id="audio2"
+        src="https://cdn.glitch.global/9eec938b-b28c-433d-b85b-9cab7d44f982/spongebob-dolphin-censor.mp3?v=1650264131820"
+      ></audio>
+      <audio
+        id="audio3"
+        src="https://cdn.glitch.global/9eec938b-b28c-433d-b85b-9cab7d44f982/panda-sneeze.mp3?v=1650264235761"
+      ></audio>
+      <audio
+        id="audio4"
+        src="https://cdn.glitch.global/9eec938b-b28c-433d-b85b-9cab7d44f982/lion-roaring-sound.mp3?v=1650264232624"
+      ></audio>
+      <audio
+        id="audio5"
+        src="https://cdn.glitch.global/9eec938b-b28c-433d-b85b-9cab7d44f982/bats_in_cave-mike_koenig-1902240953.mp3?v=1650264301241"
+      ></audio>
+      <audio
+        id = "audio6"
+        src = "https://cdn.glitch.global/9eec938b-b28c-433d-b85b-9cab7d44f982/victory_6.mp3?v=1650663813583"
+      ></audio>
+    </div>
+  </body>
+</html>
