@@ -4,7 +4,7 @@
 
 Submitted by: David Barcenas
 
-Time spent: 1.5 hrs
+Time spent: 2.5 hrs
 
 Link to project: https://agate-olivine-respect.glitch.me/
 
@@ -30,7 +30,7 @@ The following **optional** features are implemented:
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
 * [x] Game button appearance change goes beyond color (e.g. add an image)
 * [x] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
+* [x] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
