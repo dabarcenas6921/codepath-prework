@@ -43,7 +43,7 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-![](https://i.imgur.com/70kxDn8.gif)
+![Game features](https://i.imgur.com/70kxDn8.gif)
 
 
 ## Reflection Questions
